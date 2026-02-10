@@ -121,9 +121,9 @@ public class CustomerDetailsWindow {
                                  int age, int people, int days,
                                  int floor_no, int room_no) {
 
-        String url = "jdbc:postgresql://localhost:5432/hostel_management";
-        String user = "postgres";
-        String pass = "Project(JAVA)";
+        String url = "jdbc:postgresql://localhost:5432/Your folder name";    //This line may change based on where you are running the or which database you are using
+        String user = "Your Username";
+        String pass = "Your Password";    //Change the both username and password before run the code
 
         String sql = "INSERT INTO customers (name, address, phone, age, people, days, floor_no, room_no) " +
                 "VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
@@ -155,9 +155,9 @@ public class CustomerDetailsWindow {
     private int getRoomCapacity(int floor, int room) {
 
         String sql = "SELECT capacity FROM rooms WHERE floor_no=? AND room_no=?";
-        String url = "jdbc:postgresql://localhost:5432/hostel_management";
-        String user = "postgres";
-        String pass = "Project(JAVA)";
+        String url = "jdbc:postgresql://localhost:5432/Your folder name";    //This line may change based on where you are running the or which database you are using
+        String user = "Your Username";
+        String pass = "Your Password";    //Change the both username and password before run the code
 
         try (Connection con = DriverManager.getConnection(url, user, pass);
              PreparedStatement stmt = con.prepareStatement(sql)) {
@@ -175,3 +175,4 @@ public class CustomerDetailsWindow {
         return 0; // default if database issue
     }
 }
+
