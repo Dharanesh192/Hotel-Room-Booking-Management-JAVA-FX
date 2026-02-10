@@ -96,4 +96,19 @@ It provides a simple and user-friendly interface to perform booking operations e
       );
 
 
+## 📸 Application Screenshots
 
+### 🏠 Main Dashboard
+<p align="center">
+  <img src="Images/Home_Page.png" width="500" height="500">
+</p>
+
+### 👤 Customer Booking Window
+<p align="center">
+  <img src="Images/Customer_Details.png" width="500" height="500">
+</p>
+
+### 🛢️ Customer Database Details
+<p align="center">
+  <img src="Images/Data_Manager.png" width="500" height="500">
+</p>
