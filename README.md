@@ -33,13 +33,14 @@ This application allows managing room availability, booking rooms, storing custo
     javac --module-path javafx-sdk-25\lib --add-modules javafx.controls,javafx.fxml \-cp PostgreSQL\postgresql-42.7.3.jar -d Compiled Code\*.java && \java --module-path javafx-sdk-25\lib --add-modules javafx.controls,javafx.fxml \-cp "Compiled;PostgreSQL\postgresql-42.7.3.jar" MainView
 
 ## 📜 Requriment For The Project
-- Follow the project structure as given 
 - Download the Javafx-sdk-25 to run FX code
-- Downioad the PostgreSQL to create a database and store the user input
-- You can use any database for this project. **"But you need to alter the code"**
-- Download the required Jar file for your database to connect Java code and the database
 - For postgreSQL jar download it the provided link
-- Create a database and set a password in your database
-- Add your database password to the code where I mentioned
+- Download the required Jar file for your database to connect Java code and the database
+- Downioad the PostgreSQL to create a database and store the user input
+- ⚠️ Follow the project structure as given 
+- ⚠️ You can use any database for this project. **"But you need to alter the code"**
+- 🎯 Create a database and set a password in your database
+- 🎯 Add your database password to the code where I mentioned
+
 
 
