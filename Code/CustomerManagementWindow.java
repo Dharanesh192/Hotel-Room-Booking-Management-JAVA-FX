@@ -282,9 +282,9 @@ public class CustomerManagementWindow {
     // ---------------- CONNECTION ----------------
     private Connection connect() throws Exception {
         return DriverManager.getConnection(
-                "jdbc:postgresql://localhost:5432/hostel_management",
-                "postgres",
-                "Project(JAVA)"
+                "jdbc:postgresql://localhost:5432/Your folder name";    //This line may change based on where you are running the or which database you are using,
+                "Your Username",
+                "Your Password";    //Change the both username and password before run the code
         );
     }
 
@@ -298,3 +298,4 @@ public class CustomerManagementWindow {
         daysField.clear();
     }
 }
+
