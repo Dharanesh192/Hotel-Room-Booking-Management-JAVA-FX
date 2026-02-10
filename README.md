@@ -20,7 +20,8 @@ It provides a simple and user-friendly interface to perform booking operations e
 - 👤 Store and manage customer details  
 - 📅 Book rooms based on availability
 - 🟥⬜ Different room color based on the room availability 
-- 🧾 Maintain customer stay information (days, people, age, etc.)  
+- 🧾 Maintain customer stay information (days, people, age, etc.)
+- 🖱️ While hover on the grid it shows the room details (Price, Capacity, Availability)
 - 💾 PostgreSQL database integration using JDBC  
 - 🖥️ Interactive and user-friendly JavaFX interface  
 - 🔄 Easy to modify for other databases (MySQL / Oracle) with minor code changes  
@@ -93,5 +94,6 @@ It provides a simple and user-friendly interface to perform booking operations e
         floor_no INT,
         room_no INT
       );
+
 
 
