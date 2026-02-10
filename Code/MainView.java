@@ -127,10 +127,9 @@ public class MainView extends Application {
                 "LEFT JOIN customers c " +
                 "ON r.floor_no = c.floor_no AND r.room_no = c.room_no";
 
-        String url = "jdbc:postgresql://localhost:5432/hostel_management";
-        String user = "postgres";
-        String pass = "Project(JAVA)";
-
+        String url = "jdbc:postgresql://localhost:5432/Your folder name";    //This line may change based on where you are running the or which database you are using
+        String user = "Your Username";
+        String pass = "Your Password";    //Change the both username and password before run the code
         try (Connection con = DriverManager.getConnection(url, user, pass);
              PreparedStatement stmt = con.prepareStatement(sql);
              ResultSet rs = stmt.executeQuery()) {
@@ -228,3 +227,4 @@ public class MainView extends Application {
         launch(args);
     }
 }
+
