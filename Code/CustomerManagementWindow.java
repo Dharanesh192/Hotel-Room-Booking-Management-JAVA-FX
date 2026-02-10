@@ -152,7 +152,7 @@ public class CustomerManagementWindow {
         layout.setPadding(new Insets(20));
 
         Scene scene = new Scene(layout, 900, 550);
-        scene.getStylesheets().add(new File("manager-style.css").toURI().toString());
+        scene.getStylesheets().add(new File("Compiled/manager-style.css").toURI().toString());
         window.setScene(scene);
         window.show();
     }

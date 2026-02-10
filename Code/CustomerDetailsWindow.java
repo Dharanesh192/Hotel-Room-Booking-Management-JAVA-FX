@@ -109,7 +109,7 @@ public class CustomerDetailsWindow {
         grid.add(saveBtn, 1, 6);
 
         Scene scene = new Scene(grid, 420, 360);
-        scene.getStylesheets().add(new File("manager-style.css").toURI().toString());
+        scene.getStylesheets().add(new File("Compiled/manager-style.css").toURI().toString());
         window.setScene(scene);
         window.show();
     }
