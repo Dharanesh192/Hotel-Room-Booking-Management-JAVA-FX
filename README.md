@@ -1,69 +1,14 @@
 # 🏨 Hotel / Hostel Room Booking Management System (JavaFX)
 
-A desktop-based **Hotel / Hostel Room Booking Management System** built using **JavaFX**, **PostgreSQL**, and **JDBC**.  
-This application allows managing room availability, booking rooms, storing customer details, and administering bookings through a modern JavaFX UI.
+A desktop-based **Hotel / Hostel Room Booking Management System** built using **JavaFX** and **PostgreSQL**.  
+This application allows managing room availability, booking rooms, storing customer details and administering bookings through the JavaFX UI.
 
----
-
-## ✨ Features
-
-### 🏢 Room Management
-- Floors 1–5, each with 20 rooms
-- Visual room grid
-- Color indication:
-  - 🟥 Booked rooms
-  - ⬜ Available rooms
-  - 🟩 Selected room
-- Room number displayed (e.g., 101, 205)
-- Tooltip shows:
-  - Room price
-  - Capacity
-  - Booking status
-
-### 👤 Customer Management
-- Add customer details when booking a room
-- View all customers in a table
-- Update customer details
-- Delete customer bookings
-- Auto-refresh room availability when changes occur
-
-### 🔍 Search & Filter
-- Search customers by:
-  - Name
-  - Room number
-  - Phone
-  - Age
-  - Number of people
-  - Days of stay
-- Filter customers by floor using a dropdown
-
-### ⚡ Performance
-- Room data is cached in memory for fast UI response
-- Database is accessed only when required
-- Automatic refresh after insert/update/delete
-
-### 🎨 UI Theme
-- Premium **Red & Gold** theme
-- Custom CSS styling
-- Responsive layout using JavaFX containers
-
----
-
-## 🛠 Technologies Used
-
-- **Java 24**
-- **JavaFX 25**
-- **PostgreSQL**
-- **JDBC (PostgreSQL Driver)**
-- **CSS (JavaFX Styling)**
-
----
 
 ## 📁 Project Structure
 
     Hotel-Room-Booking-Management-JAVA-FX/
     │
-    ├── Code/ # Java code files
+    ├── Code/ 
     │ ├── MainView.java
     │ ├── CustomerDetailsWindow.java
     │ ├── CustomerManagementWindow.java
@@ -79,4 +24,22 @@ This application allows managing room availability, booking rooms, storing custo
     │
     ├── javafx-sdk-25/
         └── lib/
-    
+
+## 🔗 Files To Download
+- JAVA FX file Download link -> https://download2.gluonhq.com/openjfx/25.0.2/openjfx-25.0.2_windows-x64_bin-sdk.zip
+- PostgreSQL Jar file Download link -> https://jdbc.postgresql.org/download/postgresql-42.7.3.jar
+
+## 💾 Compile and Run
+    javac --module-path javafx-sdk-25\lib --add-modules javafx.controls,javafx.fxml \-cp PostgreSQL\postgresql-42.7.3.jar -d Compiled Code\*.java && \java --module-path javafx-sdk-25\lib --add-modules javafx.controls,javafx.fxml \-cp "Compiled;PostgreSQL\postgresql-42.7.3.jar" MainView
+
+## 📜 Requriment For The Project
+- Follow the project structure as given 
+- Download the Javafx-sdk-25 to run FX code
+- Downioad the PostgreSQL to create a database and store the user input
+- You can use any database for this project. **"But you need to alter the code"**
+- Download the required Jar file for your database to connect Java code and the database
+- For postgreSQL jar download it the provided link
+- Create a database and set a password in your database
+- Add your database password to the code where I mentioned
+
+
