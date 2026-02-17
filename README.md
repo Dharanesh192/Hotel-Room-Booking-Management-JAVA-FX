@@ -66,7 +66,7 @@ It provides a simple and user-friendly interface to perform booking operations e
 - Javafx-SDK file Download link -> https://download2.gluonhq.com/openjfx/25.0.2/openjfx-25.0.2_windows-x64_bin-sdk.zip
 - PostgreSQL Jar file Download link -> https://jdbc.postgresql.org/download/postgresql-42.7.3.jar
 
-## 💾 Compile and Run
+## ▶️ How To Compile and Run
 - This command is to Compile the files in the code folder and store it in the compiled folder and run it.
   
         javac --module-path javafx-sdk-25\lib --add-modules javafx.controls,javafx.fxml \-cp PostgreSQL\postgresql-42.7.3.jar -d Compiled Code\*.java && \java --module-path javafx-sdk-25\lib --add-modules javafx.controls,javafx.fxml \-cp "Compiled;PostgreSQL\postgresql-42.7.3.jar" MainView
@@ -112,3 +112,4 @@ It provides a simple and user-friendly interface to perform booking operations e
 <p align="center">
   <img src="Images/Data_Manager.png" width="500" height="500">
 </p>
+
