@@ -14,6 +14,11 @@ The system helps manage:
 
 It provides a simple and user-friendly interface to perform booking operations efficiently while storing all data securely in a PostgreSQL database.
 
+## 📚 Technical stack
+- PostgreSQL for data storage
+- Java for backend
+- JavaFX for the frontend design
+
 ## 🛠️ Features
 
 - 🏨 Manage hotel rooms with floor and room numbers  
@@ -40,6 +45,10 @@ It provides a simple and user-friendly interface to perform booking operations e
 - 🎯 Open the Java source code and update the Username and database password were I mentioned
 - 📌It is important to create this table in your database before running the code
 - Use the compile and run command to run the application
+  
+## 🔗 Files To Download
+- Javafx-SDK file Download link -> https://download2.gluonhq.com/openjfx/25.0.2/openjfx-25.0.2_windows-x64_bin-sdk.zip
+- PostgreSQL Jar file Download link -> https://jdbc.postgresql.org/download/postgresql-42.7.3.jar
 
 ## 📁 Project Structure
 
@@ -61,10 +70,6 @@ It provides a simple and user-friendly interface to perform booking operations e
     │
     ├── javafx-sdk-25/
         └── lib/
-
-## 🔗 Files To Download
-- Javafx-SDK file Download link -> https://download2.gluonhq.com/openjfx/25.0.2/openjfx-25.0.2_windows-x64_bin-sdk.zip
-- PostgreSQL Jar file Download link -> https://jdbc.postgresql.org/download/postgresql-42.7.3.jar
 
 ## ▶️ How To Compile and Run
 - This command is to Compile the files in the code folder and store it in the compiled folder and run it.
